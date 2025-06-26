@@ -1,0 +1,46 @@
+body{
+	background-color: #F7F7F7;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.logo{
+	background-color: #077a54;
+	margin: 0px 64px;
+}
+
+.navegacion{
+	background-color: #077a54;
+	margin: 8px 0px;
+	padding: 8px;
+
+	border-radius: 16px;
+}
+
+.navegacion ul{
+	display: flex;
+	flex-direction: row;
+
+	list-style-type: none;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+.navegacion ul li{
+	margin: 0 8px;
+
+}
+
+.navegacion ul li a{
+	text-decoration: none;
+	color: #F7F7F7;
+	font-weight: bold;
+}
