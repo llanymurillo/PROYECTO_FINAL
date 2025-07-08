@@ -10,7 +10,7 @@
 
 	<header>
 		<div class="logo">
-			LOGO
+			<img src="Logo_finasgame.png" width="100px">
 		</div>
 		<nav class="navegacion">
 			<ul>
@@ -30,7 +30,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#tu_donacion">
 						Tu Donación
 					</a>
 				</li>
@@ -159,10 +159,45 @@
 					</div>
 				</div>
 			</article>
-
-
-
 		</section>
+
+		<h1 id="tu_donacion" class="cart-historias">Tu Donación</h1>
+    <div style="text-align: center; margin-bottom: 1rem;">
+        <button onclick="location.href='carrito.html'" class="a-car">
+            Ver carrito
+        </button>
+
+        <!-- <a href="carrito.html">Carro de Compras</a> -->
+    </div>
+
+
+		<section class="productos">
+        <article class="producto" data-id="p001">
+            <img src="webp_1.webp">
+            <h2>Camiseta fantastica</h2>
+            <p>Ideal para aventuras urbanas. Material suave y fresco.</p>
+            <div class="precio">$80.000</div>
+            <button onclick="agregarAlCarrito('p001')">Agregar al carrito</button>
+        </article>
+
+        <article class="producto" data-id="p002">
+            <img src="webp_1_10.webp" alt="Producto 2">
+            <h2>taza amor</h2>
+            <p>Perfecta para el día a día.</p>
+            <div class="precio">$30.000</div>
+            <button onclick="agregarAlCarrito('p002')">Agregar al carrito</button>
+        </article>
+
+        <article class="producto" data-id="p003">
+            <img src="webp_1_7.webp" alt="Producto 3">
+            <h2>Gorra Clásica</h2>
+            <p>Protección y estilo en un solo accesorio.</p>
+            <div class="precio">$50.000</div>
+            <button onclick="agregarAlCarrito('p003')">Agregar al carrito</button>
+        </article>
+    </section>
+
+	</main>
 
 
 		<footer>
@@ -175,9 +210,7 @@
 			
 		</footer>
 
-
-
-	</main>
+	<script src="productos.js"></script>
 
 </body>
 </html>
